@@ -9,7 +9,7 @@ TEST(Suite1, Case1)
 TEST(Suite2, Case2)
 {
     Person p;
-    ASSERT_EQ(24, p.id());
+    ASSERT_EQ(42, p.id());
 }
 
 int main(int argc, char* argv[])
